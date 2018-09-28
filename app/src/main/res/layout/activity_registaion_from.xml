@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ragistation_login_bg"
+    tools:context="com.example.jplikhon.my_bangla.Registaion_from">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/deep_green"
+        android:addStatesFromChildren="false"
+        app:cardElevation="5dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/reg_from"
+            android:layout_width="50dp"
+            android:tint="@color/white"
+            android:layout_height="50dp" />
+    </android.support.v7.widget.CardView>
+    <ImageView
+        android:layout_marginTop="95dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/rectangel"
+        android:rotation="45"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        app:cardBackgroundColor="@color/card_1"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/username"
+            android:drawableLeft="@drawable/user_name"
+            android:hint="     user name"
+            android:drawableTint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        app:cardBackgroundColor="@color/card_1"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/mailadress"
+            android:drawableLeft="@drawable/mail"
+            android:hint="     mail adress"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        app:cardBackgroundColor="@color/card_1"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/poneno"
+            android:drawableLeft="@drawable/password"
+            android:hint=" phone no:"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            app:cardBackgroundColor="@color/card_1"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/pasword"
+                android:drawableLeft="@drawable/password"
+                android:hint=" type password"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+        </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/card_1"
+        app:cardCornerRadius="10dp">
+
+        <EditText
+            android:id="@+id/re_pasword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawableLeft="@drawable/password"
+            android:ems="6"
+            android:hint="  re type password"
+            android:inputType="textPassword" />
+    </android.support.v7.widget.CardView>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I agree to the Terms of Service"
+        android:layout_gravity="center"/>
+    </LinearLayout>
+    <android.support.v7.widget.CardView
+        android:id="@+id/signup"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="@color/deep_green"
+        app:cardCornerRadius="25dp">
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"/>
+    </android.support.v7.widget.CardView>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:paddingTop="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25sp"
+        android:text="Already member?"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:text="  Login"
+        android:textStyle="bold"
+        android:textColor="@color/deep_green"/>
+</LinearLayout>
+    <TextView
+        android:id="@+id/msg"
+        android:layout_margin="10dp"
+        android:textSize="25sp"
+        android:textColor="@color/red"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

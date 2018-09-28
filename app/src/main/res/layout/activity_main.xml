@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jplikhon.my_bangla.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/colorAccent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="4">
+        ///menu comonication start
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            style="@style/linearLayout">
+            <android.support.v7.widget.CardView
+                android:layout_width="40dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/red"
+                android:layout_height="40dp">
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <android.support.v7.widget.CardView
+                app:cardBackgroundColor="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:layout_width="38dp"
+                app:cardCornerRadius="30dp"
+                android:layout_height="38dp">
+                    <ImageView
+                        android:layout_gravity="center"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    style="@style/menu_src"/>
+                </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        /// menu commonication end
+        ///menu Education start
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            style="@style/linearLayout">
+            <android.support.v7.widget.CardView
+                android:layout_width="40dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/card_1"
+                android:layout_height="40dp">
+                <android.support.v7.widget.CardView
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_gravity="center"
+                    android:layout_width="39dp"
+                    app:cardCornerRadius="39dp"
+                    android:layout_height="39dp">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        style="@style/menu_src"/>
+                </android.support.v7.widget.CardView>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        /// menu Education end
+        ///menu News start
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            style="@style/linearLayout">
+            <android.support.v7.widget.CardView
+                android:layout_width="40dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/card_1"
+                android:layout_height="40dp">
+                <android.support.v7.widget.CardView
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_gravity="center"
+                    android:layout_width="39dp"
+                    app:cardCornerRadius="39dp"
+                    android:layout_height="39dp">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        style="@style/menu_src"/>
+                </android.support.v7.widget.CardView>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        /// menu News end
+        ///menu Digital Skill start
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            style="@style/linearLayout">
+            <android.support.v7.widget.CardView
+                android:layout_width="40dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/card_1"
+                android:layout_height="40dp">
+                <android.support.v7.widget.CardView
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_gravity="center"
+                    android:layout_width="39dp"
+                    app:cardCornerRadius="39dp"
+                    android:layout_height="39dp">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        style="@style/menu_src"/>
+                </android.support.v7.widget.CardView>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        /// menu Digital Skill end
+    </LinearLayout>
+    <View
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></View>
+    ////// Fragment Education
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="Education"
+            style="@style/menu_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            style="@style/menu_text"
+            android:gravity="center"
+            android:text="Choose Your Class"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_gravity="center"
+            android:background="@color/red"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></View>
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:padding="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            /// Primary
+        <android.support.v7.widget.CardView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            app:cardElevation="1.5dp">
+            <TextView
+                style="@style/class_btn_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Class  1" />
+        </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="60dp"
+                android:layout_margin="10dp"
+                android:layout_height="60dp"
+                app:cardElevation="1.5dp">
+                <TextView
+                    style="@style/class_btn_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="Class  2" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                app:cardElevation="1.5dp">
+                <TextView
+                    style="@style/class_btn_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="Class  3" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                app:cardElevation="1.5dp">
+                <TextView
+                    style="@style/class_btn_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="Class  4" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                app:cardElevation="1.5dp">
+                <TextView
+                    style="@style/class_btn_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="Class  5" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "757419758922",
+    "firebase_url": "https://mybangla-86ace.firebaseio.com",
+    "project_id": "mybangla-86ace",
+    "storage_bucket": "mybangla-86ace.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757419758922:android:b586ef5563c47c3b",
+        "android_client_info": {
+          "package_name": "com.example.jplikhon.my_bangla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757419758922-mmc32jh66b2rbbdkvj9nmkjnitbv0pr9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jplikhon.my_bangla",
+            "certificate_hash": "ff4a075f92a8129b892f8787232c5074c718de11"
+          }
+        },
+        {
+          "client_id": "757419758922-jqghkn3lv8tr94k6rmug604f06cbgql9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOY1zaxL9ot-07AtJJ-uKE0odGtSjzqG8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757419758922-jqghkn3lv8tr94k6rmug604f06cbgql9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
